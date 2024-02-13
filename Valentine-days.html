@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hai Riska</title>
+<style>
+body {
+  background-color: #fdd2e4;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff6b81;
+}
+
+p {
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+.audio {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+
+
+<h1>Selamat Hari Valentine, Sayang</h1>
+<p>Halo Sayang,</p>
+
+<p>Hari ini adalah hari yang sangat spesial, hari dimana kita merayakan cinta dan kasih sayang. Aku ingin mengambil momen ini untuk mengungkapkan betapa berharganya kamu bagi aku.</p>
+
+<p>Dari saat pertama kita bertemu, hidup aku telah dipenuhi dengan kebahagiaan dan cinta yang tak terhingga. Setiap hari yang kita habiskan bersama adalah suatu anugerah, dan aku merasa sangat beruntung bisa membagi hidup aku denganmu.</p>
+
+<p>Kamu adalah orang yang paling istimewa dalam hidup aku. Kamu membuat aku merasa dicintai, dihargai, dan diterima apa adanya. Kamu selalu ada untuk aku, dalam suka dan duka, dan tidak ada kata-kata yang cukup untuk mengungkapkan betapa berharganya kamu bagi aku.</p>
+
+<p>Hari ini, di hari Valentine, aku ingin mengucapkan terima kasih. Terima kasih telah menjadi bagian dari hidup aku, terima kasih telah mencintai aku dengan sepenuh hati, dan terima kasih telah membuat hidup aku lebih berarti.</p>
+
+<p>Aku berharap kita bisa terus bersama, merayakan cinta kita, dan membangun kenangan indah bersama. Kamu adalah cinta sejati aku, dan aku tidak bisa membayangkan hidup tanpamu.</p>
+
+<p>Selamat Hari Valentine, Sayang. Aku mencintaimu lebih dari kata-kata bisa ungkapkan.</p>
+
+<p>Dengan Cinta,<br>
+Hafis</p>
+
+<audio controls autoplay> 
+  <source src="lagu.mp3" type="audio/mp3"> Your browser does not support the audio element. 
+ </audio> 
+ <script src="script.js"></script>
+
+<script>
+  const audio = document.querySelector('audio');
+  const body = document.body;
+
+  audio.addEventListener('play', () => {
+    body.classList.add('play-music');
+  });
+
+  audio.addEventListener('pause', () => {
+    body.classList.remove('play-music');
+  });
+</script>
+
+</body>
+</html>
